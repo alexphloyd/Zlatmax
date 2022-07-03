@@ -1,0 +1,19 @@
+@use 'sass:math';
+
+//---------------------------------------------------
+$fontFamily: "";
+
+@function rem($px) {
+    $result: math.div($px, 16) + rem;
+    @return $result;
+}
+
+//---------------------------------------------------
+$minWidth: 320px;
+$maxWidth: 1190;
+$maxWidthContainer: 1190;
+$md1: $maxWidthContainer + 12;
+$md2: 870.98;
+$md3: 767.98;
+$md4: 479.98;
+//---------------------------------------------------
